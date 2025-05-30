@@ -11,8 +11,8 @@ html, body {
   justify-content: center;
 }
 
-#container > div {
-  maxWidth: 300px;
+#container > * {
+  width: 300px;
 }
 
 #glubcrew {
