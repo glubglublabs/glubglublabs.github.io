@@ -9,3 +9,8 @@ html, body {
   align-content: center;
   justify-content: center;
 }
+
+#crew {
+  display: flex;
+  flex-direction: space-between;
+}
