@@ -10,7 +10,7 @@ html, body {
   justify-content: center;
 }
 
-#crew {
+#glubcrew {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
