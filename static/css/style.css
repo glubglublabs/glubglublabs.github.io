@@ -12,5 +12,5 @@ html, body {
 
 #crew {
   display: flex;
-  flex-direction: space-between;
+  justify-content: space-between;
 }
