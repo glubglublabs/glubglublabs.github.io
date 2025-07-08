@@ -1,29 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="description" content="🐟 brooklyn-based tech-mongers. we <3 fishy r&d! 🐠">
-  	<meta name="keywords" content="creative technologists, brooklyn, interactive, designers, electronics, r&d, web">
+	<meta name="keywords" content="creative technologists, brooklyn, interactive, designers, electronics, r&d, web">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>glub glub labs</title>
-	<link rel="stylesheet" href="/static/css/style.css">
 	<link rel="icon" type="image/x-icon" href="/static/assets/favicon.ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="/static/css/style.css">
 </head>
 
 <body>
 	<div id="container">
-		<img src="/static/assets/images/glubglublogotextonwhite.png" alt="glub glub labs in air bubbles" style="margin-bottom: -50px">
-		<img src="/static/assets/images/glubglubteamimage.png" alt="glub glubbers tres and josh holding a billy bass fish pic by shiva v">
-		<div id="glubcrew">
-			<div><a href="https://trespimentel.com" target="blank">tres</a></div>
-			<div><a href="https://joshjoshjosh.net" target="blank">josh</a></div>
+		<div id="left">
+			<div style="position: relative;">
+				<svg width="274" height="85" viewBox="0 0 274 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path
+						d="M268.872 26.7907C249.879 -7.58833 205.683 0.466675 173.512 2.06667C131.251 4.16867 90.0708 -3.90133 47.9028 2.55667C35.2268 4.49767 22.4218 8.38468 12.6638 16.7047C-8.66822 34.8907 -1.54021 63.6947 22.7678 74.9237C51.8958 88.3777 87.2948 84.3687 118.433 84.2767C158.101 84.1597 197.511 81.9137 236.779 76.0657C246.637 74.5977 257.06 72.6567 264.424 65.9407C274.851 56.4297 275.739 39.3117 268.952 26.9367C268.925 26.8877 268.898 26.8387 268.872 26.7907Z"
+						fill="#306AFF" />
+				</svg>
+				<div class="section-head">
+					projects
+				</div>
+			</div>
+			<div id="project-list">
+				<button class="project-button" onclick="showproject()">
+					Sarcasmophone
+				</button>
+				<button class="project-button" onclick="showproject()">
+					Sarcasmophone
+				</button>
+				<button class="project-button" onclick="showproject()">
+					Sarcasmophone
+				</button>
+				<button class="project-button" onclick="showproject()">
+					Sarcasmophone
+				</button>
+			</div>
+			<div>
+				<a href="/"><img src="/static/assets/images/pixelated-image.png" alt="glub glub labs logo"
+						style="width: 200px;"></a>
+			</div>
 		</div>
-		<div id="glubglubclub">
-			work on your projects with us at the labs!<br>
-			<b>glub glub club</b> is open to all<br>
-			and meeting <i>tue 15 jul 5pm</i> in brooklyn<br>
-			<a href="mailto:serttechnologyllc@gmail.com?subject=i want to come to glub glub club on 15 jul&body=my name and my favorite fish is:">rsvp to serttechnologyllc@gmail.com</a>
+		<div id="right">
+			<div id="home-placeholder" class="">
+				<img src="/static/assets/images/bubbles.png" alt="bubbles" width="100px"
+					style="align-self: end; transform: translateX(-100%);">
+				<h1>We are tech-mongers and we do fishy r&d.</h1>
+				<img src="/static/assets/images/mrglub.png" alt="mr glub" width="200px"
+					style="align-self: end; rotate: 18deg; transform: translateX(20%);">
+			</div>
+			<div class="project-window hidden">
+				<div class="window-handle">
+					<button onclick="hideproject()"
+						style="background-color: transparent; border: none; margin: 0; padding: 0; text-align: inherit; font: inherit; border-radius: 0; appearance: none;">
+						<svg width="25" height="25" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5 5L33.8806 34.1801" stroke="black" stroke-width="9" stroke-linecap="round" />
+							<path d="M5 34.1801L33.8806 5" stroke="black" stroke-width="9" stroke-linecap="round" />
+						</svg>
+					</button>
+				</div>
+				<div class="window-content">
+					<div class="content-header" style="">
+						<h1 class="content-title">Sarcasmophone</h1>
+						<p class="content-year">2025</p>
+					</div>
+					<hr>
+					<div class="content-body">
+						<h2 class="short-desc">This megaphone turns everything you say sarcastic!</h2>
+						<img class="hero-image" src="/static/assets/images/sarcasmophone1.jpg" alt="the sarcasmophone"
+							width="100%">
+						<p class="long-desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+							unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+							survived not only five centuries, but also the leap into electronic typesetting, remaining
+							essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+							containing Lorem Ipsum passages, and more recently with desktop publishing software like
+							Aldus PageMaker including versions of Lorem Ipsum.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
+	<script>
+		function showproject() {
+			let projectWindow = document.getElementsByClassName("project-window")[0];
+			projectWindow.classList.remove("hidden");
+			let placeholder = document.getElementById("home-placeholder");
+			placeholder.classList.add("hidden");
+		}
+
+		function hideproject() {
+			let projectWindow = document.getElementsByClassName("project-window")[0];
+			projectWindow.classList.add("hidden");
+			let placeholder = document.getElementById("home-placeholder");
+			placeholder.classList.remove("hidden");
+		}
+	</script>
 </body>
+
 </html>
