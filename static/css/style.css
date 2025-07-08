@@ -16,7 +16,7 @@ html, body {
   width: 300px;
 }
 
-#glubcrew {
+.glubcrew {
   display: flex;
   justify-content: space-around;
   margin: 10px;
