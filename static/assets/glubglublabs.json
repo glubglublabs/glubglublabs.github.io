@@ -22,7 +22,7 @@
                 },
                 {
                     "name": "tres",
-                    "role": "voice generation",
+                    "role": "voices",
                     "link": "#crew"
                 }
             ],
@@ -34,19 +34,6 @@
                     "link": "https://mediamajlis.northwestern.edu/en/whats-on/exhibitions-programs/memememememe-01-sep-2025-04-dec-2025"
                 }
             ],
-            "colour": "lightyellow"
-        },
-        {
-            "title": "Ally: AI Parenting Coach",
-            "short-desc": "Custom chatbot for proactive parents",
-            "long-desc": "long desc",
-            "slug": "ally",
-            "year": "2025",
-            "client": "Healthy Digital Childhood Alliance",
-            "team": {},
-            "images": 0,
-            "videos": 0,
-            "links": [],
             "colour": "lightyellow"
         },
         {
@@ -75,19 +62,6 @@
             ],
             "images": 9,
             "videos": 2,
-            "links": [],
-            "colour": "aquamarine"
-        },
-        {
-            "title": "The Love Oracle",
-            "short-desc": "AI encyclopedia for video oral history",
-            "long-desc": "What if you could ask questions to oral history? A new way to engage with video archives through RAG models and speculative design of public knowledge infrastructure. Using technology to archive, present, and educate. To make broad static media interactive and personal.",
-            "year": "2025",
-            "client": "Healthy Digital Childhood Alliance",
-            "team": [],
-            "slug": "loveoracle",
-            "images": 0,
-            "videos": 0,
             "links": [],
             "colour": "aquamarine"
         }
@@ -163,5 +137,33 @@
     "clients": [
         "Northwestern University Qatar",
         "Healthy Digital Childhood Alliance"
+    ],
+    "drafts": [
+        {
+            "title": "Ally: AI Parenting Coach",
+            "short-desc": "Custom chatbot for proactive parents",
+            "long-desc": "long desc",
+            "slug": "ally",
+            "year": "2025",
+            "client": "Healthy Digital Childhood Alliance",
+            "team": {},
+            "images": 0,
+            "videos": 0,
+            "links": [],
+            "colour": "lightyellow"
+        },
+        {
+            "title": "The Love Oracle",
+            "short-desc": "AI encyclopedia for video oral history",
+            "long-desc": "What if you could ask questions to oral history? A new way to engage with video archives through RAG models and speculative design of public knowledge infrastructure. Using technology to archive, present, and educate. To make broad static media interactive and personal.",
+            "year": "2025",
+            "client": "Healthy Digital Childhood Alliance",
+            "team": [],
+            "slug": "loveoracle",
+            "images": 0,
+            "videos": 0,
+            "links": [],
+            "colour": "aquamarine"
+        }
     ]
 }
