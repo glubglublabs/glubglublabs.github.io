@@ -275,9 +275,9 @@ function projectPage(project) {
 			})
 		);
 
-		let yearNclient = document.createElement('div');
+		let yearNlink = document.createElement('div');
 		// year
-		yearNclient.appendChild(
+		yearNlink.appendChild(
 			Object.assign(document.createElement('div'), {
 				className: 'project-window',
 				style: `margin: ${randMarginGen()};`,
@@ -291,8 +291,38 @@ function projectPage(project) {
 				`
 			})
 		);
+
+		// link
+		if (projectData.links.length > 0) {
+			let linkList = document.createElement('ul');
+			projectData.links.forEach((link) => {
+				linkList.appendChild(
+					Object.assign(document.createElement('li'), {
+						innerHTML: `<a href="${link.link}" target="_blank">${link.title}</a>`
+					})
+				);
+			});
+			yearNlink.appendChild(
+				Object.assign(document.createElement('div'), {
+					className: 'project-window',
+					style: `margin: ${randMarginGen()};`,
+					innerHTML: `
+					<div class='content-handle'>
+						links
+					</div>
+					<div class='project-content padded'>
+						${linkList.outerHTML}
+					</div>
+				`
+				})
+			);
+		}
+		container.appendChild(yearNlink);
+
 		// client
-		yearNclient.appendChild(
+		let clientNteam = document.createElement('div');
+
+		clientNteam.appendChild(
 			Object.assign(document.createElement('div'), {
 				className: 'project-window',
 				style: `margin: ${randMarginGen()};`,
@@ -306,7 +336,6 @@ function projectPage(project) {
 				`
 			})
 		);
-		container.appendChild(yearNclient);
 
 		// collaborators
 		let teamList = document.createElement('ul');
@@ -317,7 +346,7 @@ function projectPage(project) {
 				})
 			);
 		});
-		container.appendChild(
+		clientNteam.appendChild(
 			Object.assign(document.createElement('div'), {
 				className: 'project-window',
 				style: `margin: ${randMarginGen()};`,
@@ -331,7 +360,7 @@ function projectPage(project) {
 				`
 			})
 		);
-
+		container.appendChild(clientNteam);
 
 		// videos
 		if (projectData.videos) {

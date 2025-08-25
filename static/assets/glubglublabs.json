@@ -4,7 +4,7 @@
     "projects": [
         {
             "title": "Memememememe",
-            "short-desc": "Memes in museums???",
+            "short-desc": "Putting the memes in museums",
             "long-desc": "long desc",
             "slug": "memememememe",
             "year": "2025",
@@ -28,10 +28,12 @@
             ],
             "images": 0,
             "videos": 0,
-            "links": {
-                "github": "link.to.github",
-                "youtube": "link.to.youtube"
-            },
+            "links": [
+                {
+                    "title": "exhibition website",
+                    "link": "https://mediamajlis.northwestern.edu/en/whats-on/exhibitions-programs/memememememe-01-sep-2025-04-dec-2025"
+                }
+            ],
             "colour": "lightyellow"
         },
         {
@@ -44,10 +46,7 @@
             "team": {},
             "images": 0,
             "videos": 0,
-            "links": {
-                "github": "link.to.github",
-                "youtube": "link.to.youtube"
-            },
+            "links": [],
             "colour": "lightyellow"
         },
         {
@@ -76,6 +75,7 @@
             ],
             "images": 9,
             "videos": 2,
+            "links": [],
             "colour": "aquamarine"
         },
         {
@@ -88,10 +88,7 @@
             "slug": "loveoracle",
             "images": 0,
             "videos": 0,
-            "links": {
-                "github": "link.to.github",
-                "youtube": "link.to.youtube"
-            },
+            "links": [],
             "colour": "aquamarine"
         }
     ],
