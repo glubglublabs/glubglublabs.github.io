@@ -5,10 +5,10 @@
         {
             "title": "Memememememe",
             "short-desc": "Putting the memes in museums",
-            "long-desc": "long desc",
+            "long-desc": "We designed and deployed the digital interface for Spak!'s piece in the Media Majlis Museum at Northwestern Qatar. <br><br>The exhibit showcases the power of memes in modern history.<br><br>Taking inspiration from the aesthetics of Windows 95, the audiovisual experience includes animated images, a very realistic voiceover by Gilbert Gottfried, live captions, and original background music.",
             "slug": "memememememe",
             "year": "2025",
-            "client": "Northwestern University Doha",
+            "client": "Spak! / Northwestern University Qatar",
             "team": [
                 {
                     "name": "spak!",
@@ -17,17 +17,17 @@
                 },
                 {
                     "name": "josh",
-                    "role": "animation and software",
+                    "role": "design, software, music",
                     "link": "#crew"
                 },
                 {
                     "name": "tres",
-                    "role": "script and audio",
+                    "role": "voice generation",
                     "link": "#crew"
                 }
             ],
-            "images": 0,
-            "videos": 0,
+            "images": 7,
+            "videos": 1,
             "links": [
                 {
                     "title": "exhibition website",
@@ -52,19 +52,19 @@
         {
             "title": "Sarcasmophone",
             "short-desc": "Portable AI-powered sarcasm!",
-            "long-desc": "We created a handheld device that turns everything you say sarcastic! Loosely inspired by that one scene in Inside Out 2, speak into this megaphone and let it add saltiness and judgement to your delivery. <br><br>This project is powered by a Raspberry Pi and two ElevenLabs models trained on 1 hour of sarcastic training audio, personally recorded by Tres and Josh. <br><br> Never be afraid of being too nice again!",
+            "long-desc": "We created a handheld device that turns everything you say sarcastic. 🙄 <br><br>Loosely inspired by that one scene in Inside Out 2, speak into this megaphone and let it add saltiness and judgement to your delivery. <br><br>This project is powered by a Raspberry Pi and two custom voice models trained on painstakingly recorded sarcastic audio by Tres and Josh. (One of us might be better at voice acting than the other...) <br><br>We definitely didn't run into any issues with this one! /s",
             "slug": "sarcasmophone",
             "year": "2025",
             "client": "in-house",
             "team": [
                 {
                     "name": "cindy wang",
-                    "role": "electrical",
+                    "role": "wires",
                     "link": "https://xinyiwang.art"
                 },
                 {
                     "name": "josh",
-                    "role": "fabrication",
+                    "role": "fab",
                     "link": "#crew"
                 },
                 {
@@ -102,9 +102,9 @@
         },
         {
             "title": "Memememememe",
-            "short-desc": "Memes in museums???",
+            "short-desc": "Putting the memes in museums",
             "slug": "memememememe",
-            "image": "./static/assets/projects/sarcasmophone/sarcasmophonegif.gif",
+            "image": "./static/assets/projects/memememememe/memememememegif.gif",
             "colour": "lightyellow"
         }
     ],
