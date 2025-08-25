@@ -1,0 +1,170 @@
+{
+    "file": "glub glub labs database",
+    "last-updated": "2025-08-05T16:04:16Z",
+    "projects": [
+        {
+            "title": "Memememememe",
+            "short-desc": "Memes in museums???",
+            "long-desc": "long desc",
+            "slug": "memememememe",
+            "year": "2025",
+            "client": "Northwestern University Doha",
+            "team": [
+                {
+                    "name": "spak!",
+                    "role": "direction",
+                    "link": "https://www.spak.studio"
+                },
+                {
+                    "name": "josh",
+                    "role": "animation and software",
+                    "link": "#crew"
+                },
+                {
+                    "name": "tres",
+                    "role": "script and audio",
+                    "link": "#crew"
+                }
+            ],
+            "images": 0,
+            "videos": 0,
+            "links": {
+                "github": "link.to.github",
+                "youtube": "link.to.youtube"
+            },
+            "colour": "lightyellow"
+        },
+        {
+            "title": "Ally: AI Parenting Coach",
+            "short-desc": "Custom chatbot for proactive parents",
+            "long-desc": "long desc",
+            "slug": "ally",
+            "year": "2025",
+            "client": "Healthy Digital Childhood Alliance",
+            "team": {},
+            "images": 0,
+            "videos": 0,
+            "links": {
+                "github": "link.to.github",
+                "youtube": "link.to.youtube"
+            },
+            "colour": "lightyellow"
+        },
+        {
+            "title": "Sarcasmophone",
+            "short-desc": "Portable AI-powered sarcasm!",
+            "long-desc": "We created a handheld device that turns everything you say sarcastic! Loosely inspired by that one scene in Inside Out 2, speak into this megaphone and let it add saltiness and judgement to your delivery. <br><br>This project is powered by a Raspberry Pi and two ElevenLabs models trained on 1 hour of sarcastic training audio, personally recorded by Tres and Josh. <br><br> Never be afraid of being too nice again!",
+            "slug": "sarcasmophone",
+            "year": "2025",
+            "client": "in-house",
+            "team": [
+                {
+                    "name": "cindy wang",
+                    "role": "electrical",
+                    "link": "https://xinyiwang.art"
+                },
+                {
+                    "name": "josh",
+                    "role": "fabrication",
+                    "link": "#crew"
+                },
+                {
+                    "name": "tres",
+                    "role": "software",
+                    "link": "#crew"
+                }
+            ],
+            "images": 9,
+            "videos": 2,
+            "colour": "aquamarine"
+        },
+        {
+            "title": "The Love Oracle",
+            "short-desc": "AI encyclopedia for video oral history",
+            "long-desc": "What if you could ask questions to oral history? A new way to engage with video archives through RAG models and speculative design of public knowledge infrastructure. Using technology to archive, present, and educate. To make broad static media interactive and personal.",
+            "year": "2025",
+            "client": "Healthy Digital Childhood Alliance",
+            "team": [],
+            "slug": "loveoracle",
+            "images": 0,
+            "videos": 0,
+            "links": {
+                "github": "link.to.github",
+                "youtube": "link.to.youtube"
+            },
+            "colour": "aquamarine"
+        }
+    ],
+    "home page": [
+        {
+            "title": "Sarcasmophone",
+            "short-desc": "Portable AI-powered sarcasm!",
+            "slug": "sarcasmophone",
+            "image": "./static/assets/projects/sarcasmophone/sarcasmophonegif.gif",
+            "colour": "aquamarine"
+        },
+        {
+            "title": "Memememememe",
+            "short-desc": "Memes in museums???",
+            "slug": "memememememe",
+            "image": "./static/assets/projects/sarcasmophone/sarcasmophonegif.gif",
+            "colour": "lightyellow"
+        }
+    ],
+    "glub glub club": {
+        "upcoming": {
+            "title": "glubbing 🔜🐟"
+        },
+        "past": [
+            {
+                "title": "gyotaku workshop w/ chevy lace",
+                "date": "Aug 9 2025",
+                "link": "https://lu.ma/6g9iobwn",
+                "embedsrc": "https://lu.ma/embed/event/evt-ybsEkJM5HJYwaew/simple"
+            },
+            {
+                "title": "inaugural glub glub club",
+                "date": "Jul 15 2025",
+                "link": ""
+            }
+        ]
+    },
+    "crew": {
+        "tres": {
+            "name": "tres pimentel",
+            "bio": "The original Fish-Boy hailing from Jupiter, FL. Retired from a boring career in consulting, Tres has a Masters in Data Science and another Masters in Interactive Telecommunications. Ask him about hardware prototyping and machine learning.",
+            "email": "thisistres@email.com",
+            "link": "https://www.trespimentel.com",
+            "pic": "/static/assets/crew/tres.png"
+        },
+        "josh": {
+            "name": "josh zhong",
+            "bio": "The kid wonder from Auckland, Down Under. Josh couldn't make it as a pop star so he thought he would be an inter-disciplinary designer instead. This kiwi might be able to do it all, especially fabrication, web development, and making videos that go viral.",
+            "email": "thisisjosh@email.com",
+            "link": "https://joshjoshjosh.net",
+            "pic": "/static/assets/crew/josh.png"
+        },
+        "pals": [
+            {
+                "name": "cindy wang",
+                "link": "https://xinyiwang.art"
+            },
+            {
+                "name": "kay wasil aka chevy lace",
+                "link": "https://kwasil.com"
+            },
+            {
+                "name": "adnan aga",
+                "link": "https://adnanaga.com"
+            },
+            {
+                "name": "spak!",
+                "link": "https://www.spak.studio"
+            }
+        ]
+    },
+    "clients": [
+        "Northwestern University Qatar",
+        "Healthy Digital Childhood Alliance"
+    ]
+}
