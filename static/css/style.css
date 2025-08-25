@@ -9,7 +9,7 @@
 html,
 body {
   margin: 0;
-  /* color: teal; */ 
+  /* color: teal; */
   text-align: center;
   height: 100%;
   box-sizing: border-box;
@@ -428,6 +428,17 @@ button {
     max-height: none;
   }
 
+  .twin-div>div {
+    margin: 0 !important;
+    max-height: none;
+  }
+
+  .twin-div {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
   .highlight-window {
     position: relative;
     margin-bottom: 2em;
@@ -453,6 +464,7 @@ button {
   .content-content {
     overflow-y: initial;
   }
+
 
 }
 

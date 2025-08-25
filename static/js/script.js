@@ -75,7 +75,7 @@ function Container() {
 				</a>
 				<ul id="nav-items">
 					<li><a href="#projects">projects</a></li>
-					<li><a href="#crew">the crew</a></li>
+					<li><a href="#crew">crew</a></li>
 					<li><a href="#glubglubclub">glub glub club</a></li>
 					<li><a href="#contact">contact</a></li>
 					<li><a href="https://www.instagram.com/glubglublabs/" target="_blank">insta</a></li>
@@ -275,7 +275,9 @@ function projectPage(project) {
 			})
 		);
 
+		//year n links
 		let yearNlink = document.createElement('div');
+		yearNlink.className = "twin-div";
 		// year
 		yearNlink.appendChild(
 			Object.assign(document.createElement('div'), {
@@ -291,7 +293,6 @@ function projectPage(project) {
 				`
 			})
 		);
-
 		// link
 		if (projectData.links.length > 0) {
 			let linkList = document.createElement('ul');
@@ -319,9 +320,10 @@ function projectPage(project) {
 		}
 		container.appendChild(yearNlink);
 
-		// client
+		// client n team
 		let clientNteam = document.createElement('div');
-
+		clientNteam.className = "twin-div";
+		// client
 		clientNteam.appendChild(
 			Object.assign(document.createElement('div'), {
 				className: 'project-window',
@@ -336,8 +338,7 @@ function projectPage(project) {
 				`
 			})
 		);
-
-		// collaborators
+		// team
 		let teamList = document.createElement('ul');
 		projectData.team.forEach((teammate) => {
 			teamList.appendChild(
@@ -374,7 +375,7 @@ function projectPage(project) {
 								video
 							</div>
 							<div class='project-content'>
-								<video src="/static/assets/projects/${projectData.slug}/${projectData.slug}video${i}.mov" width="100%" style="display:block;" autoplay muted loop controls>
+								<video src="/static/assets/projects/${projectData.slug}/${projectData.slug}video${i}.mov" width="100%" style="display:block;" autoplay muted playsinline loop controls>
 							</div>
 						`
 					})
