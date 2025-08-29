@@ -9,11 +9,9 @@
 html,
 body {
   margin: 0;
-  /* color: teal; */
   text-align: center;
   height: 100%;
   box-sizing: border-box;
-  /* border: none; */
   /* background-color: #EBF8FF; */
   background-color: #00e6ee;
   background-image: url("../assets/images/water.gif");
@@ -22,9 +20,7 @@ body {
 }
 
 ul {
-  /* padding-left: 20px; */
   padding-left: 0;
-  /* list-style-type: "🐟"; */
   list-style-type: none;
   text-align: left;
 }
@@ -113,7 +109,10 @@ button {
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
-  padding-right: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: var(--content-justify, center);
+  align-items: center;
 }
 
 .overlay-center {
@@ -217,16 +216,12 @@ button {
 }
 
 .overlay-grid {
-  position: absolute;
-  width: 100%;
+  /* max-width: 1000px; */
   height: auto;
-  top: 0;
-  left: 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-template-rows: 1fr 1fr; */
+  justify-content: center;
   align-items: center;
-  justify-items: center;
   padding-top: 2em;
   padding-bottom: 2em;
   gap: 2em;
@@ -349,7 +344,7 @@ button {
 }
 
 .hero {
-  grid-row: 1 / span 2;
+  grid-row: span 2;
 }
 
 .padded {

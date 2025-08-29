@@ -38,12 +38,15 @@ function loadPage() {
 	let hashString = window.location.hash.substring(1);
 	if (routes[hashString]) {
 		// content = routes[hashString];
+		contentDiv.style.setProperty('--content-justify', 'center');
 		content = typeof routes[hashString] === 'function'
 			? routes[hashString]()
 			: routes[hashString];
 	} else if (projects.includes(hashString)) {
+		contentDiv.style.setProperty('--content-justify', 'flex-start');
 		content = projectPage(hashString);
 	} else {
+		contentDiv.style.setProperty('--content-justify', 'center');
 		content = notPage;
 	}
 	// Clear existing content
@@ -54,7 +57,10 @@ function loadPage() {
 	} else {
 		contentDiv.innerHTML = content;
 	}
-
+	contentDiv.scrollIntoView({
+		behavior: 'smooth', 
+		block: 'start'
+	});
 }
 
 function randMarginGen() {
@@ -226,7 +232,6 @@ function projectPage(project) {
 		let container = document.createElement('div');
 		container.className = 'overlay-grid';
 
-
 		// title
 		// starburst/short desc
 		let titleSection = document.createElement('div');
@@ -275,11 +280,11 @@ function projectPage(project) {
 			})
 		);
 
-		//year n links
-		let yearNlink = document.createElement('div');
-		yearNlink.className = "twin-div";
+		//year n links together
+		// let yearNlink = document.createElement('div');
+		// yearNlink.className = "twin-div";
 		// year
-		yearNlink.appendChild(
+		container.appendChild(
 			Object.assign(document.createElement('div'), {
 				className: 'project-window',
 				style: `margin: ${randMarginGen()};`,
@@ -303,7 +308,7 @@ function projectPage(project) {
 					})
 				);
 			});
-			yearNlink.appendChild(
+			container.appendChild(
 				Object.assign(document.createElement('div'), {
 					className: 'project-window',
 					style: `margin: ${randMarginGen()};`,
@@ -318,13 +323,13 @@ function projectPage(project) {
 				})
 			);
 		}
-		container.appendChild(yearNlink);
+		// container.appendChild(yearNlink);
 
-		// client n team
-		let clientNteam = document.createElement('div');
-		clientNteam.className = "twin-div";
+		// // client n team together 
+		// let clientNteam = document.createElement('div');
+		// clientNteam.className = "twin-div";
 		// client
-		clientNteam.appendChild(
+		container.appendChild(
 			Object.assign(document.createElement('div'), {
 				className: 'project-window',
 				style: `margin: ${randMarginGen()};`,
@@ -347,7 +352,7 @@ function projectPage(project) {
 				})
 			);
 		});
-		clientNteam.appendChild(
+		container.appendChild(
 			Object.assign(document.createElement('div'), {
 				className: 'project-window',
 				style: `margin: ${randMarginGen()};`,
@@ -361,7 +366,7 @@ function projectPage(project) {
 				`
 			})
 		);
-		container.appendChild(clientNteam);
+		// container.appendChild(clientNteam);
 
 		// videos
 		if (projectData.videos) {
@@ -369,7 +374,7 @@ function projectPage(project) {
 				container.appendChild(
 					Object.assign(document.createElement('div'), {
 						className: 'project-window',
-						style: `margin: ${randMarginGen()};`,
+						style: `margin: ${randMarginGen()};grid-row: span 2;`,
 						innerHTML: `
 							<div class='content-handle'>
 								video
@@ -389,7 +394,7 @@ function projectPage(project) {
 				container.appendChild(
 					Object.assign(document.createElement('div'), {
 						className: 'project-window',
-						style: `margin: ${randMarginGen()};`,
+						style: `margin: ${randMarginGen()};grid-row: span 2;`,
 						innerHTML: `
 							<div class='content-handle'>
 								image
