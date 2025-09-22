@@ -3,6 +3,39 @@
     "last-updated": "2025-08-05T16:04:16Z",
     "projects": [
         {
+            "title": "Ally: AI Parenting Coach",
+            "short-desc": "Custom chatbot for proactive parents",
+            "long-desc": "Healthy Digital Childhood Alliance approached us to help them create an AI-powered chatbot to help parents practice difficult conversations with their children and develop a functional and educational website around it. <br><br>We developed Ally - a chatbot based on current, evidence-based research in Positive Discipline and Systemic Family Therapy. Ally is custom built to client specification, designed to give parents and caregivers research-based guidance for childhood digital wellbeing challenges. <br><br>We also developed additional functionalities on the HDCA site, including user registration, analytics, and resource download tracking.",
+            "slug": "ally",
+            "year": "2025",
+            "client": "Healthy Digital Childhood Alliance (HDCA) is a Lisbon based non-profit that aims to build communities where parents and educators can come together to seek ways to allow children to “thrive, not just survive, in our digital age”.",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "chatbot, backend",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "frontend",
+                    "link": "#crew"
+                }
+            ],
+            "images": 6,
+            "videos": 1,
+            "links": [
+                {
+                    "title": "Healthy Digital Childhood Alliance",
+                    "link": "https://healthydigitalchildhoodalliance.com"
+                },
+                {
+                    "title": "Ally",
+                    "link": "https://healthydigitalchildhoodalliance.com/ally"
+                }
+            ],
+            "colour": "lightyellow"
+        },
+        {
             "title": "Memememememe",
             "short-desc": "Putting the memes in museums",
             "long-desc": "We designed and deployed the digital interface for Spak!'s piece in the Media Majlis Museum at Northwestern Qatar. <br><br>The exhibit showcases the power of memes in modern history.<br><br>Taking inspiration from the aesthetics of Windows 95, the audiovisual experience includes animated images, a very realistic voiceover by Gilbert Gottfried, live captions, and original background music.",
@@ -138,23 +171,11 @@
         ]
     },
     "clients": [
+        "YouTube Kids",
         "Northwestern University Qatar",
         "Healthy Digital Childhood Alliance"
     ],
     "drafts": [
-        {
-            "title": "Ally: AI Parenting Coach",
-            "short-desc": "Custom chatbot for proactive parents",
-            "long-desc": "long desc",
-            "slug": "ally",
-            "year": "2025",
-            "client": "Healthy Digital Childhood Alliance",
-            "team": {},
-            "images": 0,
-            "videos": 0,
-            "links": [],
-            "colour": "lightyellow"
-        },
         {
             "title": "The Love Oracle",
             "short-desc": "AI encyclopedia for video oral history",
