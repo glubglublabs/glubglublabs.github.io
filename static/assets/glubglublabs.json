@@ -117,12 +117,18 @@
     ],
     "glub glub club": {
         "upcoming": {
-            "title": "field (test) day!",
-            "date": "Sep 27 2025",
-            "link": "https://luma.com/k6wlgyem",
-            "embedsrc": "https://luma.com/embed/event/evt-Bm8eeqDAPEIa9C2/simple"
+            "title": "glub-cade",
+            "date": "Oct 21 2025",
+            "link": "https://luma.com/5k47lx9p",
+            "embedsrc": "https://luma.com/embed/event/evt-P49PQGDBszAgBqH/simple"
         },
         "past": [
+            {
+                "title": "field (test) day!",
+                "date": "Sep 27 2025",
+                "link": "https://luma.com/k6wlgyem",
+                "embedsrc": "https://luma.com/embed/event/evt-Bm8eeqDAPEIa9C2/simple"
+            },
             {
                 "title": "gyotaku workshop w/ chevy lace",
                 "date": "Aug 9 2025",
