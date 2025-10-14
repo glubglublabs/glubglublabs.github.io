@@ -85,6 +85,7 @@ function Container() {
 					<li><a href="#glubglubclub">glub glub club</a></li>
 					<li><a href="#contact">contact</a></li>
 					<li><a href="https://www.instagram.com/glubglublabs/" target="_blank">insta</a></li>
+					<li><a href="/static/assets/downloads/Drumfish-Regular.otf" download>fish font download</a></li>
 				</ul>
 			</nav>
 		</div>
