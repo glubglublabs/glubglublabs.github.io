@@ -38,14 +38,14 @@
         {
             "title": "Memememememe",
             "short-desc": "Putting the memes in museums",
-            "long-desc": "We designed and deployed the digital interface for Spak!'s piece in the Media Majlis Museum at Northwestern Qatar. <br><br>The exhibit showcases the power of memes in modern history.<br><br>Taking inspiration from the aesthetics of Windows 95, the audiovisual experience includes animated images, a very realistic voiceover by Gilbert Gottfried, live captions, and original background music.",
+            "long-desc": "We designed and deployed the digital interface for Adnan Aga's Narrative Laundry in the Media Majlis Museum at Northwestern Qatar. <br><br>The exhibit showcases the social power of memes in modern history.<br><br>Taking inspiration from the aesthetics of Windows 95, the audiovisual experience includes animated images, a very realistic voiceover by Gilbert Gottfried, live captions, and original background music.",
             "slug": "memememememe",
             "year": "2025",
-            "client": "Spak! / Northwestern University Qatar",
+            "client": "Adnan Aga / Northwestern University Qatar",
             "team": [
                 {
-                    "name": "spak!",
-                    "role": "direction",
+                    "name": "adnan aga/spak!",
+                    "role": "artist",
                     "link": "https://www.spak.studio"
                 },
                 {
@@ -65,6 +65,10 @@
                 {
                     "title": "exhibition website",
                     "link": "https://mediamajlis.northwestern.edu/en/whats-on/exhibitions-programs/memememememe-01-sep-2025-04-dec-2025"
+                },
+                {
+                    "title": "on social media",
+                    "link": "https://www.instagram.com/p/DP1Qdk_jCtp/"
                 }
             ],
             "colour": "lightyellow"
