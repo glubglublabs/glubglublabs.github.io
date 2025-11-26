@@ -121,12 +121,20 @@
     ],
     "glub glub club": {
         "upcoming": {
-            "title": "🐟🎀 keychain craft-ernoon w/ makin stuff",
-            "date": "Nov 9 2025",
-            "link": "https://luma.com/uzhemmt4",
-            "embedsrc": "https://luma.com/embed/event/evt-S65rVrKOmD12npC/simple"
+            "title": "coming soon"
         },
         "past": [
+            {
+                "title": "hacksgiving extensionathon w/ dare.fail",
+                "date": "Nov 22 2025",
+                "link": "https://luma.com/8khrlqc9"
+            },
+            {
+                "title": "🐟🎀 keychain craft-ernoon w/ makin stuff",
+                "date": "Nov 9 2025",
+                "link": "https://luma.com/uzhemmt4",
+                "embedsrc": "https://luma.com/embed/event/evt-S65rVrKOmD12npC/simple"
+            },
             {
                 "title": "glub-cade",
                 "date": "Oct 21 2025",
