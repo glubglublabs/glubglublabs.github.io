@@ -101,6 +101,30 @@
             "videos": 2,
             "links": [],
             "colour": "aquamarine"
+        },
+        {
+            "title": "10 Years of YouTube Kids",
+            "short-desc": "Anniversary-ready motion design",
+            "long-desc": "We designed the motion graphics for the 10 year anniversary of YouTube Kids at Google’s NYC campus! <br><br>Picking from YouTube Kids' wide cast of characters, we developed motion assets using After Effects for multiple video walls, screens, and ceiling LED matrices. <br><br>Over the course of the event, guests could catch cameos from characters like Failnana flopping into frame and Sprinkle Toast floating their way across the sky.",
+            "slug": "ytkten",
+            "year": "2025",
+            "client": "YouTube Kids + Chemistry Creative",
+            "team": [
+                {
+                    "name": "josh",
+                    "role": "motion designer",
+                    "link": "#crew"
+                }
+            ],
+            "images": 2,
+            "videos": 4,
+            "links": [
+                {
+                    "title": "YouTube: Celebrating 10 Years of YouTube Kids",
+                    "link": "https://blog.youtube/news-and-events/10-years-of-youtube-kids/"
+                }
+            ],
+            "colour": "lightyellow"
         }
     ],
     "home page": [

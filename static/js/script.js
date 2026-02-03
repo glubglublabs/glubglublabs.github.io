@@ -194,14 +194,13 @@ function projectPage(project) {
 		// Create wrapper div for list
 		let listWrapper = document.createElement('div');
 		listWrapper.appendChild(listContainer);
-		container.appendChild(listWrapper);
 
 		// Generate project elements
 		glubSON["projects"].forEach((project) => {
 			// Add to list
 			let projectName = document.createElement('li');
 			projectName.innerHTML = `<a href="#${project["slug"]}">${project["title"]}</a>`;
-			projectList.appendChild(projectName);
+			projectList.prepend(projectName);
 
 			// Create project card
 			let projectDiv = document.createElement('div');
@@ -223,8 +222,10 @@ function projectPage(project) {
 				window.location.href = `#${project["slug"]}`;
 			});
 
-			container.appendChild(projectDiv);
+			container.prepend(projectDiv);
 		});
+
+		container.prepend(listWrapper);
 		return container;
 	} else {
 		// get project data
