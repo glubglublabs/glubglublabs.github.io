@@ -33,6 +33,7 @@
                     "link": "https://healthydigitalchildhoodalliance.com/ally"
                 }
             ],
+            "gif": "allygif.webm",
             "colour": "lightyellow"
         },
         {
@@ -71,6 +72,7 @@
                     "link": "https://www.instagram.com/p/DP1Qdk_jCtp/"
                 }
             ],
+            "gif": "memememememegif.webm",
             "colour": "lightyellow"
         },
         {
@@ -100,6 +102,7 @@
             "images": 9,
             "videos": 2,
             "links": [],
+            "gif": "sarcasmophonegif.gif",
             "colour": "aquamarine"
         },
         {
@@ -124,6 +127,7 @@
                     "link": "https://blog.youtube/news-and-events/10-years-of-youtube-kids/"
                 }
             ],
+            "gif": "ytktengif.webm",
             "colour": "lightyellow"
         }
     ],
@@ -139,7 +143,7 @@
             "title": "Memememememe",
             "short-desc": "Putting the memes in museums",
             "slug": "memememememe",
-            "image": "./static/assets/projects/memememememe/memememememegif.gif",
+            "image": "./static/assets/projects/memememememe/memememememegif.webm",
             "colour": "lightyellow"
         }
     ],

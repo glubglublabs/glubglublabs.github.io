@@ -173,7 +173,7 @@ button {
 }
 
 .starburst {
-  background-image: url("../assets/images/starburst.png");
+  background-image: url("../assets/images/starburst.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -222,7 +222,7 @@ button {
   grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
-  padding-top: 2em;
+  padding-top: 4em;
   padding-bottom: 2em;
   gap: 2em;
   box-sizing: border-box;
@@ -466,7 +466,7 @@ button {
 /* cursor */
 /* Start https://www.cursors-4u.com */
 * {
-  cursor: url(https://cur.cursors-4u.net/nature/nat-7/nat699.cur), auto !important;
+  cursor: url(../assets/images/cursor.cur), auto !important;
 }
 
 /* End https://www.cursors-4u.com */

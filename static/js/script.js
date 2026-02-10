@@ -65,7 +65,7 @@ function loadPage() {
 
 function randMarginGen() {
 	return `
-		${Math.floor(Math.random() * 10)}% ${Math.floor(Math.random() * 20)}% ${Math.floor(Math.random() * 10)}% ${Math.floor(Math.random() * 20)}%
+		${1 + Math.floor(Math.random() * 4)}% ${Math.floor(Math.random() * 20)}% ${Math.floor(Math.random() * 10)}% ${Math.floor(Math.random() * 20)}%
 	`;
 }
 
@@ -128,7 +128,7 @@ function homePage() {
 			<div class="highlight-handle">
 				<u>${glubSON["home page"][0]["title"]}</u>
 			</div>
-			<img src="${glubSON["home page"][0]["image"]}" height="200px">
+			${glubSON["home page"][0]["image"].endsWith(".webm") ? `<video src="${glubSON["home page"][0]["image"]}" height="200px" autoplay muted loop playsinline></video>` : `<img src="${glubSON["home page"][0]["image"]}" height="200px">`}
 		</div>
 		<div class="highlight-blurb starburst">
 			<div class="blurb-content">${glubSON["home page"][0]["short-desc"]}</div>
@@ -155,7 +155,7 @@ function homePage() {
 			<div class="highlight-handle">
 				<u>${glubSON["home page"][1]["title"]}</u>
 			</div>
-			<img src="${glubSON["home page"][1]["image"]}" height="200px">
+			${glubSON["home page"][1]["image"].endsWith(".webm") ? `<video src="${glubSON["home page"][1]["image"]}" height="200px" autoplay muted loop playsinline></video>` : `<img src="${glubSON["home page"][1]["image"]}" height="200px">`}
 		</div>
 		<div class="highlight-blurb starburst">
 			<div class="blurb-content">${glubSON["home page"][1]["short-desc"]}</div>
@@ -210,7 +210,7 @@ function projectPage(project) {
 			projectDiv.innerHTML = `
                 <div class="highlight-content" style="position: relative; background-color: ${project["colour"]}; pointer-events: none;">
                     <div class="highlight-handle" style="pointer-events: none;"><u>${project["title"]}</u></div>
-                    <img src="./static/assets/projects/${project["slug"]}/${project["slug"]}gif.gif" height="200" style="pointer-events: none;">
+                    ${project["gif"].endsWith(".webm") ? `<video src="./static/assets/projects/${project["slug"]}/${project["gif"]}" height="200" style="pointer-events: none;" autoplay muted loop playsinline></video>` : `<img src="./static/assets/projects/${project["slug"]}/${project["gif"]}" height="200" style="pointer-events: none;">`}
                 </div>
                 <div class="highlight-blurb starburst" style="pointer-events: none;">
                     <div class="blurb-content">${project["short-desc"]}</div>
@@ -382,7 +382,7 @@ function projectPage(project) {
 								video
 							</div>
 							<div class='project-content'>
-								<video src="/static/assets/projects/${projectData.slug}/${projectData.slug}video${i}.mov" width="100%" style="display:block;" autoplay muted playsinline loop controls>
+								<video src="/static/assets/projects/${projectData.slug}/${projectData.slug}video${i}.mp4" width="100%" style="display:block;" autoplay muted playsinline loop controls preload="none">
 							</div>
 						`
 					})
@@ -402,7 +402,7 @@ function projectPage(project) {
 								image
 							</div>
 							<div class='project-content'>
-								<img src="/static/assets/projects/${projectData.slug}/${projectData.slug}${i}.jpeg" width="100%" style="display:block;">
+								<img src="/static/assets/projects/${projectData.slug}/${projectData.slug}${i}.jpeg" width="100%" style="display:block;" loading="lazy">
 							</div>
 						`
 					})
