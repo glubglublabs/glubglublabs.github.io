@@ -129,6 +129,36 @@
             ],
             "gif": "ytktengif.webm",
             "colour": "lightyellow"
+        },
+        {
+            "title": "CAMPFIRE",
+            "short-desc": "A mystical stone AI play narrator",
+            "long-desc": "What does a mystical AI narrator that tells campfire stories about the people sitting around it look like? <br><br>We helped design the centerpiece which houses the technology for Chris Shimojima’s new immersive experience CAMPFIRE. It uses embedded cameras, speakers, and microphones to interact with audience members and weave a live storytelling experience. <br><br>We took inspiration from Japanese stone lanterns, 3D printing the form before finishing with a cement mix. Shown here is an earlier iteration of the design, for the final form you’ll need to pay the campfire a visit yourself.",
+            "slug": "campfire",
+            "year": "2026",
+            "client": "Chris Shimojima",
+            "team": [
+                {
+                    "name": "josh",
+                    "role": "fabricator",
+                    "link": "#crew"
+                },
+                {
+                    "name": "Cubicten",
+                    "role": "fabricator",
+                    "link": "https://cubicten.com"
+                }
+            ],
+            "images": 7,
+            "videos": 0,
+            "links": [
+                {
+                    "title": "CAMPFIRE - Official Website",
+                    "link": "https://byshimo.chrisshimojima.com/campfire/"
+                }
+            ],
+            "gif": "campfiregif.gif",
+            "colour": "lightyellow"
         }
     ],
     "home page": [
