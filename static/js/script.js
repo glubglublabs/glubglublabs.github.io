@@ -465,14 +465,6 @@ function crewPage() {
 				</div>
 			</div>
 			<div style='margin: ${randMarginGen()};'>
-				<div class='content-window'>
-				<div class='content-handle'>
-					glub-llaborators
-				</div>
-				<div class='content-content'>
-					${collabElements.outerHTML}
-				</div>
-				</div>
 				<img src="/static/assets/images/mrglub.png" alt="mr glub" width="200px"
 					style="rotate: 18deg; margin-top: 2em;">
 			</div>
