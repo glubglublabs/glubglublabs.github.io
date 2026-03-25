@@ -159,6 +159,40 @@
             ],
             "gif": "campfiregif.gif",
             "colour": "lightyellow"
+        },
+        {
+            "title": "The Compass to Olive Garden",
+            "short-desc": "Let the breadstick lead the way",
+            "long-desc": "Forget the North Star or the Southern Cross, Olive Garden Times Square is the shining beacon in the darkness of other subpar eateries where when you're there you're NOT family. <br><br>Jason and Steve came to us with a prototype of their idea, a compass that always points to the Olive Garden in Times Square. Using GPS and clever anthenna positioning we were able to complete the compass, making it work inside of an old-timey brass enclosure (read: faraday cage). <br><br>With this technological breakthrough the Olive Garden in Time Square will elude us no longer. Anyone else craving Seafood Alfredo right now?",
+            "slug": "compass",
+            "year": "2026",
+            "client": "Jason Goldberg + Steve Nasopoulos",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "physical computing",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "wires, fabricator",
+                    "link": "#crew"
+                }
+            ],
+            "images": 5,
+            "videos": 2,
+            "links": [
+                {
+                    "title": "olivegardencompass.com",
+                    "link": "https://www.olivegardencompass.com/"
+                },
+                {
+                    "title": "instagram",
+                    "link": "https://www.instagram.com/olivegardencompass/"
+                }
+            ],
+            "gif": "compassgif.gif",
+            "colour": "lightyellow"
         }
     ],
     "home page": [
@@ -170,10 +204,10 @@
             "colour": "aquamarine"
         },
         {
-            "title": "Memememememe",
-            "short-desc": "Putting the memes in museums",
-            "slug": "memememememe",
-            "image": "./static/assets/projects/memememememe/memememememegif.webm",
+            "title": "The Olive Garden Compass",
+            "short-desc": "Let the breadstick lead the way",
+            "slug": "compass",
+            "image": "./static/assets/projects/compass/compassgif.gif",
             "colour": "lightyellow"
         }
     ],
