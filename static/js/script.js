@@ -38,7 +38,7 @@ function loadPage() {
 	let hashString = window.location.hash.substring(1);
 	if (routes[hashString]) {
 		// content = routes[hashString];
-		contentDiv.style.setProperty('--content-justify', 'center');
+		contentDiv.style.setProperty('--content-justify', hashString === 'projects' ? 'flex-start' : 'center');
 		content = typeof routes[hashString] === 'function'
 			? routes[hashString]()
 			: routes[hashString];
@@ -65,7 +65,7 @@ function loadPage() {
 
 function randMarginGen() {
 	return `
-		${1 + Math.floor(Math.random() * 4)}% ${Math.floor(Math.random() * 20)}% ${Math.floor(Math.random() * 10)}% ${Math.floor(Math.random() * 20)}%
+		${1 + Math.floor(Math.random() * 3)}em ${Math.floor(Math.random() * 3)}em ${Math.floor(Math.random() * 2)}em ${Math.floor(Math.random() * 3)}em
 	`;
 }
 
@@ -262,7 +262,7 @@ function projectPage(project) {
 				${projectData.title}
 			</div>
 			<div class='project-content'>
-				<img src="/static/assets/projects/${projectData.slug}/${projectData.slug}0.jpeg" width="100%" style="display:block;">
+				<img src="/static/assets/projects/${projectData.slug}/${projectData.slug}0.webp" width="100%" style="display:block;">
 			</div>
 		`;
 		container.appendChild(heroImage);
@@ -402,7 +402,7 @@ function projectPage(project) {
 								image
 							</div>
 							<div class='project-content'>
-								<img src="/static/assets/projects/${projectData.slug}/${projectData.slug}${i}.jpeg" width="100%" style="display:block;" loading="lazy">
+								<img src="/static/assets/projects/${projectData.slug}/${projectData.slug}${i}.webp" width="100%" style="display:block;" loading="lazy">
 							</div>
 						`
 					})
@@ -433,7 +433,7 @@ function crewPage() {
 				<div class='content-window' style="width: 150px; margin-left: 2em;">
 					<div class='content-handle'>
 					</div>
-					<img src="/static/assets/crew/crewpic.jpeg" alt="pic of the handsome crew" height="auto" style="display:block;">
+					<img src="/static/assets/crew/crewpic.webp" alt="pic of the handsome crew" height="auto" style="display:block;">
 				</div>
 			</div>
 			<div class='content-window' id='tres-window' style='margin: ${randMarginGen()}'>

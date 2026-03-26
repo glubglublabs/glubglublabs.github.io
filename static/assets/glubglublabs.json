@@ -102,7 +102,7 @@
             "images": 9,
             "videos": 2,
             "links": [],
-            "gif": "sarcasmophonegif.gif",
+            "gif": "sarcasmophonegif.webm",
             "colour": "aquamarine"
         },
         {
@@ -157,7 +157,7 @@
                     "link": "https://byshimo.chrisshimojima.com/campfire/"
                 }
             ],
-            "gif": "campfiregif.gif",
+            "gif": "campfiregif.webm",
             "colour": "lightyellow"
         },
         {
@@ -191,7 +191,7 @@
                     "link": "https://www.instagram.com/olivegardencompass/"
                 }
             ],
-            "gif": "compassgif.gif",
+            "gif": "compassgif.webm",
             "colour": "lightyellow"
         }
     ],
@@ -200,14 +200,14 @@
             "title": "Sarcasmophone",
             "short-desc": "Portable AI-powered sarcasm!",
             "slug": "sarcasmophone",
-            "image": "./static/assets/projects/sarcasmophone/sarcasmophonegif.gif",
+            "image": "./static/assets/projects/sarcasmophone/sarcasmophonegif.webm",
             "colour": "aquamarine"
         },
         {
             "title": "The Olive Garden Compass",
             "short-desc": "Let the breadstick lead the way",
             "slug": "compass",
-            "image": "./static/assets/projects/compass/compassgif.gif",
+            "image": "./static/assets/projects/compass/compassgif.webm",
             "colour": "lightyellow"
         }
     ],
