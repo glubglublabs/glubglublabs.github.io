@@ -58,7 +58,7 @@ function loadPage() {
 		contentDiv.innerHTML = content;
 	}
 	contentDiv.scrollIntoView({
-		behavior: 'smooth', 
+		behavior: 'smooth',
 		block: 'start'
 	});
 }
@@ -535,41 +535,100 @@ function clubPage() {
 }
 
 function contactPage() {
-	return `
-		<div class="overlay-center">
-			<div id="home-blob">
-				<h1>contact</h1>
-			</div>
-			<div class='content-window' id='contact-window'>
-				<div class='content-handle'>
-					drop us a line!
-				</div>
-				<div class='content-content'>
-					<div>
-						Do you have a project that needs some fishy R&D? No fish too big or small.
-					</div>
-						<form action="htttps://formsubmit.co/3697364a45bc06ee76e37ad3714b49c0" method="POST">
-							<input type="name" name="name" placeholder="name*" required>
-							<br>
-							<input type="email" name="email" placeholder="email*" required>
-							<br>
-							<textarea name="message" rows="10" placeholder="tell us about your project*" required></textarea>
-							<br>
-							<select name="fish" id="cars">
-							<option value="none">what is your favorite fish?</option>
-							<option value="snapper">yellowtail snapper</option>
-							<option value="grouper">strawberry grouper</option>
-							<option value="tuna">blackfin tuna</option>
-							<option value="parrotfish">rainbow parrotfish</option>
-							<option value="mahi">mahi mahi</option>
-							</select>
-							<br>
-							<button type="submit">Submit</button>
-						</form>
-				</div>
-			</div>
-		</div>
-	`;
+	// set up forminit API
+	const forminit = new Forminit();
+	const FORM_ID = 'eb1odq24k67';
+
+
+	let fragment = document.createDocumentFragment();
+
+	let overlayCenter = document.createElement('div');
+	overlayCenter.className = 'overlay-center';
+
+	let homeBlob = document.createElement('div');
+	homeBlob.id = 'home-blob';
+	homeBlob.innerHTML = '<h1>contact</h1>';
+	overlayCenter.appendChild(homeBlob);
+
+	let contentWindow = document.createElement('div');
+	contentWindow.className = 'content-window';
+	contentWindow.id = 'contact-window';
+
+	let contentHandle = document.createElement('div');
+	contentHandle.className = 'content-handle';
+	contentHandle.textContent = 'drop us a line!';
+	contentWindow.appendChild(contentHandle);
+
+	let contentContent = document.createElement('div');
+	contentContent.className = 'content-content';
+
+	let description = document.createElement('div');
+	description.textContent = 'Do you have a project that needs some fishy R&D? No fish too big or small.';
+	contentContent.appendChild(description);
+
+	let form = document.createElement('form');
+	form.id = 'contact-form';
+	form.innerHTML = `
+        <input type="text" name="fi-sender-fullName" placeholder="name*" required>
+        <br>
+        <input type="email" name="fi-sender-email" placeholder="email*" required>
+        <br>
+        <textarea rows="10" name="fi-text-message" placeholder="tell us about your project*" required></textarea>
+        <br>
+        <select name="fi-select-fish">
+            <option value="none">what is your favorite fish?</option>
+            <option value="snapper">yellowtail snapper</option>
+            <option value="grouper">strawberry grouper</option>
+            <option value="tuna">blackfin tuna</option>
+            <option value="parrotfish">rainbow parrotfish</option>
+            <option value="mahi">mahi mahi</option>
+        </select>
+        <br>
+    `;
+
+	// add event listeners and button
+
+	let submitButton = document.createElement('button');
+	submitButton.type = "submit";
+	submitButton.textContent = "Submit";
+
+	form.addEventListener('submit', async function (event) {
+		event.preventDefault();
+
+		submitButton.disabled = true;
+		submitButton.textContent = 'Sending...';
+
+		const formData = new FormData(form);
+		const { data, error } = await forminit.submit(FORM_ID, formData);
+
+		if (error) {
+			submitButton.textContent = error.message;
+			setTimeout(() => {
+				submitButton.disabled = false;
+				submitButton.textContent = 'Submit';
+			}, 5000);
+			return;
+		}
+
+		submitButton.textContent = 'Message sent successfully!';
+		submitButton.className = 'status-success';
+		setTimeout(() => {
+			form.reset();
+			submitButton.disabled = false;
+			submitButton.textContent = 'Submit';
+		}, 2000);
+
+	});
+
+	form.appendChild(submitButton);
+	contentContent.appendChild(form);
+
+	contentWindow.appendChild(contentContent);
+	overlayCenter.appendChild(contentWindow);
+
+	fragment.appendChild(overlayCenter);
+
+	return fragment;
 }
 
 let notPage = `
