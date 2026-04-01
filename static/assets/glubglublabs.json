@@ -161,7 +161,7 @@
             "colour": "lightyellow"
         },
         {
-            "title": "The Compass to Olive Garden",
+            "title": "The Olive Garden Compass",
             "short-desc": "Let the breadstick lead the way",
             "long-desc": "Forget the North Star or the Southern Cross, Olive Garden Times Square is the shining beacon in the darkness of other subpar eateries where when you're there you're NOT family. <br><br>Jason and Steve came to us with a prototype of their idea, a compass that always points to the Olive Garden in Times Square. Using GPS and clever antenna placement we were able to complete the compass, making it work inside of an old-timey brass enclosure (read: faraday cage). <br><br>With this technological breakthrough the Olive Garden in Time Square will elude us no longer. Anyone else craving Seafood Alfredo right now?",
             "slug": "compass",
@@ -193,14 +193,34 @@
             ],
             "gif": "compassgif.webm",
             "colour": "lightyellow"
+        },
+        {
+            "title": "Rage Bait Lamp",
+            "short-desc": "Don't be tempted by the light!",
+            "long-desc": "This one goes out to all the victims of ragebaiting. We think of you when we see this pendant hanging in our office. RIP (Rage In Peace). <br><br>Heatformed transparent acrylic, translucent PLA, brass hardware, permanent marker.",
+            "slug": "lamp",
+            "year": "2025",
+            "client": "in-house",
+            "team": [
+                {
+                    "name": "josh",
+                    "role": "fabricator",
+                    "link": "#crew"
+                }
+            ],
+            "images": 9,
+            "videos": 0,
+            "links": [],
+            "gif": "lampgif.gif",
+            "colour": "aquamarine"
         }
     ],
     "home page": [
         {
-            "title": "Sarcasmophone",
-            "short-desc": "Portable AI-powered sarcasm!",
-            "slug": "sarcasmophone",
-            "image": "./static/assets/projects/sarcasmophone/sarcasmophonegif.webm",
+            "title": "Rage Bait Lamp",
+            "short-desc": "Don't be tempted by the light!",
+            "slug": "lamp",
+            "image": "./static/assets/projects/lamp/lampgif.gif",
             "colour": "aquamarine"
         },
         {
