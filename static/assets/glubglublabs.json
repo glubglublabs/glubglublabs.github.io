@@ -213,6 +213,31 @@
             "links": [],
             "gif": "lampgif.gif",
             "colour": "aquamarine"
+        },
+        {
+            "title": "Met Fishing",
+            "short-desc": "Catching (and cooking) with Claude",
+            "long-desc": "Do you ever find yourself looking at a painting of a fish and think, \"I wonder what that tastes like?\" <br><br>We created a smart fishing rod that turns a visit to The Met into a digital fishing trip. Taking advantage of The Met's Open Access database we used machine learning to categorize the artworks by the types of fish it includes. We then created a Claude connected camera that scans the pieces of art, checks it against the database, adds it to your collection, shows historical and modern context for the kind of fish, and even has an \"evil\" mode that shows you how to cook the fish. <br><br>Made for the Anthropic x The Met Hackathon 2026.",
+            "slug": "metfishing",
+            "year": "2026",
+            "client": "in-house",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "data pipeline, ml",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "hardware",
+                    "link": "#crew"
+                }
+            ],
+            "images": 6,
+            "videos": 1,
+            "links": [],
+            "gif": "metfishinggif.webm",
+            "colour": "aquamarine"
         }
     ],
     "home page": [
@@ -236,6 +261,11 @@
             "title": "coming soon"
         },
         "past": [
+            {
+                "title": "glub glub club movie day!",
+                "date": "Mar 29 2026",
+                "link": "https://luma.com/nwrxpgcv"
+            },
             {
                 "title": "hacksgiving extensionathon w/ dare.fail",
                 "date": "Nov 22 2025",
