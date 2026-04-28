@@ -238,15 +238,50 @@
             "links": [],
             "gif": "metfishinggif.webm",
             "colour": "aquamarine"
+        },
+{
+            "title": "AI Slop Hunter",
+            "short-desc": "Shootout! At The Trade Show",
+            "long-desc": "Have you ever been so annoyed at the AI slop on social media that you wanted a way to shoot it off your phone?<br><br>Marpipe came to us with this fun idea for an interactive experience that they could bring to conferences to dazzle marketing executives. We turned their idea into a 4-player “duck hunt” style arcade game where players compete to shoot the most slop on a social media feed.<br><br>We built the game in Unity and used Sinden Lightguns as controllers, which we modified to look like super soakers.  We also created arcade cabinets that are flat-packable for easy deployment at multiple conferences.",
+            "slug": "slophunter",
+            "year": "2026",
+            "client": "Marpipe",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "interaction design, sound + graphic design, game development",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "fabrication, art direction",
+                    "link": "#crew"
+                },
+                {
+                    "name": "mat",
+                    "role": "game development, interaction design",
+                    "link": "http://mathewolson.com"
+                },
+                {
+                    "name": "priyanka",
+                    "role": "illustration",
+                    "link": "https://www.priyankamakin.com/"
+                }
+            ],
+            "images": 5,
+            "videos": 2,
+            "links": [],
+            "gif": "slophuntergif.webm",
+            "colour": "lightyellow"
         }
     ],
     "home page": [
         {
-            "title": "Rage Bait Lamp",
-            "short-desc": "Don't be tempted by the light!",
-            "slug": "lamp",
-            "image": "./static/assets/projects/lamp/lampgif.gif",
-            "colour": "aquamarine"
+            "title": "AI Slop Hunter",
+            "short-desc": "Shootout! At The Trade Show",
+            "slug": "slophunter",
+            "image": "./static/assets/projects/slophunter/slophuntergif.webm",
+            "colour": "lightyellow"
         },
         {
             "title": "The Olive Garden Compass",
