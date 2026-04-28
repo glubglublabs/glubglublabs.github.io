@@ -161,7 +161,7 @@
             "colour": "lightyellow"
         },
         {
-            "title": "The Olive Garden Compass",
+            "title": "The Compass to Olive Garden",
             "short-desc": "Let the breadstick lead the way",
             "long-desc": "Forget the North Star or the Southern Cross, Olive Garden Times Square is the shining beacon in the darkness of other subpar eateries where when you're there you're NOT family. <br><br>Jason and Steve came to us with a prototype of their idea, a compass that always points to the Olive Garden in Times Square. Using GPS and clever antenna placement we were able to complete the compass, making it work inside of an old-timey brass enclosure (read: faraday cage). <br><br>With this technological breakthrough the Olive Garden in Time Square will elude us no longer. Anyone else craving Seafood Alfredo right now?",
             "slug": "compass",
