@@ -273,14 +273,39 @@
             "links": [],
             "gif": "slophuntergif.webm",
             "colour": "lightyellow"
+        },
+{
+            "title": "Brandi",
+            "short-desc": "Computa, get me an internship!",
+            "long-desc": "Brandi is the latest tool from ESAI - her mission is to get you (a college student) an internship!<br><br>The ESAI team wanted a fun physical manifestation of Brandi that fit their Clear Tech and Y2K aesthetic inspirations.  We used a Raspberry Pi to hack a telephone from the 1980s in order to turn it into a hotline for college students to find internships, fast.<br><br>We use a mix of the original phone’s hardware and introduced electronics to make the magic happen.  Custom resin parts were fabricated to make the phone look like something every college student would have wanted on their desk in 2002 (or in 2026!)",
+            "slug": "brandi",
+            "year": "2026",
+            "client": "ESAI",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "software, electronics",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "fabrication",
+                    "link": "#crew"
+                }
+            ],
+            "images": 8,
+            "videos": 2,
+            "links": [],
+            "gif": "brandigif.gif",
+            "colour": "lightyellow"
         }
     ],
     "home page": [
         {
-            "title": "AI Slop Hunter",
-            "short-desc": "Shootout! At The Trade Show",
-            "slug": "slophunter",
-            "image": "./static/assets/projects/slophunter/slophuntergif.webm",
+            "title": "Brandi",
+            "short-desc": "Computa, get me an internship!",
+            "slug": "brandi",
+            "image": "./static/assets/projects/brandi/brandigif.gif",
             "colour": "lightyellow"
         },
         {
