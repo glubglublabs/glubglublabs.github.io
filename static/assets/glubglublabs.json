@@ -239,7 +239,7 @@
             "gif": "metfishinggif.webm",
             "colour": "aquamarine"
         },
-{
+        {
             "title": "AI Slop Hunter",
             "short-desc": "Shootout! At The Trade Show",
             "long-desc": "Have you ever been so annoyed at the AI slop on social media that you wanted a way to shoot it off your phone?<br><br>Marpipe came to us with this fun idea for an interactive experience that they could bring to conferences to dazzle marketing executives. We turned their idea into a 4-player “duck hunt” style arcade game where players compete to shoot the most slop on a social media feed.<br><br>We built the game in Unity and used Sinden Lightguns as controllers, which we modified to look like super soakers.  We also created arcade cabinets that are flat-packable for easy deployment at multiple conferences.",
@@ -274,7 +274,7 @@
             "gif": "slophuntergif.webm",
             "colour": "lightyellow"
         },
-{
+        {
             "title": "Brandi",
             "short-desc": "Computa, get me an internship!",
             "long-desc": "Brandi is the latest tool from ESAI - her mission is to get you (a college student) an internship!<br><br>The ESAI team wanted a fun physical manifestation of Brandi that fit their Clear Tech and Y2K aesthetic inspirations.  We used a Raspberry Pi to hack a telephone from the 1980s in order to turn it into a hotline for college students to find internships, fast.<br><br>We use a mix of the original phone’s hardware and introduced electronics to make the magic happen.  Custom resin parts were fabricated to make the phone look like something every college student would have wanted on their desk in 2002 (or in 2026!)",
@@ -318,7 +318,10 @@
     ],
     "glub glub club": {
         "upcoming": {
-            "title": "coming soon"
+            "title": "glub glub labs show and tell @ studio rodrigo",
+            "date": "Jun 30 2026",
+            "link": "https://luma.com/u7ltupbx",
+            "embedsrc": "https://luma.com/u7ltupbx"
         },
         "past": [
             {
