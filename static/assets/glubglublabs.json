@@ -318,12 +318,17 @@
     ],
     "glub glub club": {
         "upcoming": {
-            "title": "glub glub labs show and tell @ studio rodrigo",
-            "date": "Jun 30 2026",
-            "link": "https://luma.com/u7ltupbx",
-            "embedsrc": "https://luma.com/u7ltupbx"
+            "title": "the kiosk-a-thon",
+            "date": "Sep 19 2026",
+            "link": "https://luma.com/2bxysg5j",
+            "embedsrc": "https://luma.com/embed/event/evt-0gTGBr1g4ZNPwLK/simple"
         },
         "past": [
+            {
+                "title": "glub glub labs show and tell @ studio rodrigo",
+                "date": "Jun 30 2026",
+                "link": "https://luma.com/u7ltupbx"
+            },
             {
                 "title": "glub glub club movie day!",
                 "date": "Mar 29 2026",
