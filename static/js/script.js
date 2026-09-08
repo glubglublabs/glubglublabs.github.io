@@ -100,7 +100,7 @@ function homePage() {
 	homePlaceholder.id = 'home-placeholder';
 	homePlaceholder.innerHTML = `
 		<div id="home-blob">
-			<h1>your local<br>🐟 brooklyn-based tech-mongers 🐠</h1>
+			<h1>your local<br>brooklyn-based tech-mongers</h1>
 		</div>
 	`;
 
