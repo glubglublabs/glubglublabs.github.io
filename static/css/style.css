@@ -83,8 +83,9 @@ button {
 }
 
 #logo {
-  height: 200px;
+  height: 100px;
   width: auto;
+  padding: 25px;
 }
 
 #nav-items {
@@ -383,7 +384,7 @@ button {
   }
 
   #logo {
-    height: 100px;
+    height: 50px;
   }
 
   #nav-items {

@@ -77,7 +77,7 @@ function Container() {
         <div id="left">
 			<nav class="nav-window">
 				<a href="/">
-					<img src="/static/assets/images/pixelated-image.png" alt="glub glub labs" id="logo">
+					<img src="/static/assets/images/glubglubsvg.svg" alt="glub glub labs" id="logo">
 				</a>
 				<ul id="nav-items">
 					<li><a href="#projects">projects</a></li>
