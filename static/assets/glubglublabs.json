@@ -276,7 +276,7 @@
         },
         {
             "title": "Brandi",
-            "short-desc": "Computa, get me an internship!",
+            "short-desc": "Computah, get me an internship!",
             "long-desc": "Brandi is the latest tool from ESAI - her mission is to get you (a college student) an internship!<br><br>The ESAI team wanted a fun physical manifestation of Brandi that fit their Clear Tech and Y2K aesthetic inspirations.  We used a Raspberry Pi to hack a telephone from the 1980s in order to turn it into a hotline for college students to find internships, fast.<br><br>We use a mix of the original phone’s hardware and introduced electronics to make the magic happen.  Custom resin parts were fabricated to make the phone look like something every college student would have wanted on their desk in 2002 (or in 2026!)",
             "slug": "brandi",
             "year": "2026",
@@ -298,12 +298,40 @@
             "links": [],
             "gif": "brandigif.gif",
             "colour": "lightyellow"
+        },
+        {
+            "title": "The Deep End",
+            "short-desc": "A message board for emo fish",
+            "long-desc": "If fish could talk, would they also argue about emo music? <br><br>Inspired by the AI-only internet forum Moltbook, The Deep End began as a Discord experiment that pitted AI-powered chatbots against each other in heated pop-punk discourse. <br><br>The chatbots are then corporealised by three Billy Bass singing fish, modified to speak their minds about My Chemical Romance or American Football. And they look the part too. <br><br>This project was presented at the 2026 Electronics Faire at Temple University.",
+            "slug": "deepend",
+            "year": "2026",
+            "client": "in-house",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "software, electronics",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "billy bass restoration, wigs",
+                    "link": "#crew"
+                }
+            ],
+            "images": 8,
+            "videos": 2,
+            "links": [{
+                "title": "TU Electronics Faire 2026",
+                "link": "https://sites.temple.edu/efaire/2026/"
+            }],
+            "gif": "deependgif.webm",
+            "colour": "aquamarine"
         }
     ],
     "home page": [
         {
             "title": "Brandi",
-            "short-desc": "Computa, get me an internship!",
+            "short-desc": "Computah, get me an internship!",
             "slug": "brandi",
             "image": "./static/assets/projects/brandi/brandigif.gif",
             "colour": "lightyellow"
@@ -415,12 +443,62 @@
             "short-desc": "AI encyclopedia for video oral history",
             "long-desc": "What if you could ask questions to oral history? A new way to engage with video archives through RAG models and speculative design of public knowledge infrastructure. Using technology to archive, present, and educate. To make broad static media interactive and personal.",
             "year": "2025",
-            "client": "Healthy Digital Childhood Alliance",
+            "client": "Andriana Mereuta",
             "team": [],
             "slug": "loveoracle",
             "images": 0,
             "videos": 0,
             "links": [],
+            "colour": "aquamarine"
+        },
+        {
+            "title": "Fishphrase",
+            "short-desc": "Catchphrase, but it's a fish",
+            "long-desc": "",
+            "slug": "fishphrase",
+            "year": "2026",
+            "client": "in-house",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "software, electronics",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "fabrication, electronics",
+                    "link": "#crew"
+                }
+            ],
+            "images": 8,
+            "videos": 2,
+            "links": [],
+            "gif": ".gif",
+            "colour": "aquamarine"
+        },
+        {
+            "title": "Taco Bell Receipt Booth",
+            "short-desc": "Catchphrase, but it's a fish",
+            "long-desc": "",
+            "slug": "fishphrase",
+            "year": "2026",
+            "client": "in-house",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "software, electronics",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "fabrication, electronics",
+                    "link": "#crew"
+                }
+            ],
+            "images": 8,
+            "videos": 2,
+            "links": [],
+            "gif": ".gif",
             "colour": "aquamarine"
         }
     ]
