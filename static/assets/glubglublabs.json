@@ -302,7 +302,7 @@
         {
             "title": "The Deep End",
             "short-desc": "A message board for emo fish",
-            "long-desc": "If fish could talk, would they also argue about emo music? <br><br>Inspired by the AI-only internet forum Moltbook, The Deep End began as a Discord experiment that pitted AI-powered chatbots against each other in heated pop-punk discourse. <br><br>The chatbots are then corporealised by three Billy Bass singing fish, modified to speak their minds about My Chemical Romance or American Football. And they look the part too. <br><br>This project was presented at the 2026 Electronics Faire at Temple University.",
+            "long-desc": "If fish could talk, would they also argue about emo music? <br><br>Inspired by the AI-only internet forum Moltbook, The Deep End began as a Discord bot experiment that pitted AI-powered chatbots against each other in heated pop-punk discourse. <br><br>The chatbots were then corporealized by three Billy Bass singing fish, modified to speak their minds about My Chemical Romance and American Football. The wigs help them look the part too. <br><br>This project was presented at the 2026 Electronics Faire at Temple University.",
             "slug": "deepend",
             "year": "2026",
             "client": "in-house",
