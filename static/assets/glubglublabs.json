@@ -433,9 +433,24 @@
         ]
     },
     "clients": [
-        "YouTube Kids",
-        "Northwestern University Qatar",
-        "Healthy Digital Childhood Alliance"
+        "Taco Bell",
+        "Public Transport Mag",
+        "OpenAI",
+        "ES.AI",
+        "Marpipe",
+        "YouTube"
+    ],
+    "press": [
+        "New York Times",
+        "The Verge",
+        "CBS",
+        "The New Yorker",
+        "Secret NYC",
+        "Gothamist",
+        "The Metropolitan Museum Blog"
+    ],
+    "quotes": [
+        "I don't get it - Gayle King"
     ],
     "drafts": [
         {
@@ -470,8 +485,8 @@
                     "link": "#crew"
                 }
             ],
-            "images": 8,
-            "videos": 2,
+            "images": 0,
+            "videos": 0,
             "links": [],
             "gif": ".gif",
             "colour": "aquamarine"
@@ -482,7 +497,7 @@
             "long-desc": "",
             "slug": "tacobell",
             "year": "2026",
-            "client": "Deutsch/m ss ng p eces",
+            "client": "Taco Bell/Deutsch/m ss ng p eces",
             "team": [
                 {
                     "name": "tres",
@@ -491,15 +506,15 @@
                 },
                 {
                     "name": "josh",
-                    "role": "fabrication, electronics",
+                    "role": "ux design, install",
                     "link": "#crew"
                 }
             ],
-            "images": 8,
-            "videos": 2,
+            "images": 0,
+            "videos": 0,
             "links": [],
             "gif": ".gif",
-            "colour": "aquamarine"
+            "colour": "lightyellow"
         }
     ]
 }
