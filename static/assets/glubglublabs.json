@@ -348,8 +348,8 @@
         "upcoming": {
             "title": "the kiosk-a-thon",
             "date": "Sep 26 2026",
-            "link": "https://luma.com/2bxysg5j",
-            "embedsrc": "https://luma.com/embed/event/evt-0gTGBr1g4ZNPwLK/simple"
+            "link": "https://luma.com/oa6y2ds1",
+            "embedsrc": "https://luma.com/embed/event/evt-KojMXuquxI77V41/simple"
         },
         "past": [
             {
@@ -438,12 +438,13 @@
         "OpenAI",
         "ES.AI",
         "Marpipe",
-        "YouTube"
+        "YouTube",
+        "Julia Fernandez"
     ],
     "press": [
         "New York Times",
         "The Verge",
-        "CBS",
+        "CBS Mornings",
         "The New Yorker",
         "Secret NYC",
         "Gothamist",
@@ -493,11 +494,11 @@
         },
         {
             "title": "Taco Bell x Daisy Chain Fields",
-            "short-desc": "A receipt you want to keep",
+            "short-desc": "A receipt you'll want to keep",
             "long-desc": "",
             "slug": "tacobell",
             "year": "2026",
-            "client": "Taco Bell/Deutsch/m ss ng p eces",
+            "client": "Taco Bell/Deutsch/m ss ng p eces/Brian Moore",
             "team": [
                 {
                     "name": "tres",
