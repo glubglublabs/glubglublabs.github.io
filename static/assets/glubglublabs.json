@@ -320,10 +320,12 @@
             ],
             "images": 8,
             "videos": 2,
-            "links": [{
-                "title": "TU Electronics Faire 2026",
-                "link": "https://sites.temple.edu/efaire/2026/"
-            }],
+            "links": [
+                {
+                    "title": "TU Electronics Faire 2026",
+                    "link": "https://sites.temple.edu/efaire/2026/"
+                }
+            ],
             "gif": "deependgif.webm",
             "colour": "aquamarine"
         },
@@ -353,10 +355,12 @@
             ],
             "images": 8,
             "videos": 1,
-            "links": [{
-                "title": "m ss ng p eces - Daisy Chain Fields",
-                "link": "https://mssngpeces.com/projects/immersive/taco/"
-            }],
+            "links": [
+                {
+                    "title": "m ss ng p eces - Daisy Chain Fields",
+                    "link": "https://mssngpeces.com/projects/immersive/taco/"
+                }
+            ],
             "gif": "bajablastgif.gif",
             "colour": "lightyellow"
         }
@@ -379,12 +383,15 @@
     ],
     "glub glub club": {
         "upcoming": {
-            "title": "the kiosk-a-thon",
-            "date": "Sep 26 2026",
-            "link": "https://luma.com/oa6y2ds1",
-            "embedsrc": "https://luma.com/embed/event/evt-KojMXuquxI77V41/simple"
+            "title": "coming soon!"
         },
         "past": [
+            {
+                "title": "the kiosk-a-thon",
+                "date": "Oct 10 2026",
+                "link": "https://luma.com/oa6y2ds1",
+                "embedsrc": "https://luma.com/embed/event/evt-KojMXuquxI77V41/simple"
+            },
             {
                 "title": "glub glub labs show and tell @ studio rodrigo",
                 "date": "Jun 30 2026",
@@ -481,7 +488,7 @@
         "Cognition",
         "The Met",
         "Chris Shimojima",
-        "Creature Comfort The Musical"        
+        "Creature Comfort The Musical"
     ],
     "almost-clients": [
         "The Boring Company",
@@ -497,7 +504,7 @@
         "The Onion",
         "Normal Computing",
         "Pally",
-        "CookUnity"        
+        "CookUnity"
     ],
     "press": [
         "New York Times",
