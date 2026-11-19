@@ -326,14 +326,47 @@
             }],
             "gif": "deependgif.webm",
             "colour": "aquamarine"
+        },
+        {
+            "title": "Baja Blast Photo Booth",
+            "short-desc": "A receipt you'll want to keep",
+            "long-desc": "You seem pretty pink for a baja blast! <br><br>To celebrate the limited edition Olivia Rodrigo Baja Blast, Taco Bell came to us to design the technology for their photobooth concept: a self-order kiosk that prints festival goers' photos on Taco Bell's iconic receipts. <br><br>We designed the UX/UI elements to allow for easy operation and specified hardware that could withstand the SoCal sun and heat as well as thousands of antendees.",
+            "slug": "bajablast",
+            "year": "2026",
+            "client": "Taco Bell/Deutsch/m ss ng p eces/Brian Moore",
+            "team": [
+                {
+                    "name": "tres",
+                    "role": "software, electronics",
+                    "link": "#crew"
+                },
+                {
+                    "name": "josh",
+                    "role": "ux design, install",
+                    "link": "#crew"
+                },
+                {
+                    "name": "Piecemaker LA",
+                    "role": "fabrication partner",
+                    "link": "https://www.instagram.com/piecemaker_fabrication/"
+                }
+            ],
+            "images": 8,
+            "videos": 1,
+            "links": [{
+                "title": "m ss ng p eces - Daisy Chain Fields",
+                "link": "https://mssngpeces.com/projects/immersive/taco/"
+            }],
+            "gif": "bajablastgif.gif",
+            "colour": "lightyellow"
         }
     ],
     "home page": [
         {
-            "title": "Brandi",
-            "short-desc": "Computah, get me an internship!",
-            "slug": "brandi",
-            "image": "./static/assets/projects/brandi/brandigif.gif",
+            "title": "Baja Blast Photo Booth",
+            "short-desc": "A receipt you'll want to keep",
+            "slug": "bajablast",
+            "image": "./static/assets/projects/bajablast/bajablastgif.gif",
             "colour": "lightyellow"
         },
         {
@@ -433,13 +466,38 @@
         ]
     },
     "clients": [
+        "The Shed",
+        "Figma",
+        "Canon",
         "Taco Bell",
-        "Public Transport Mag",
+        "Public Transport Mag/Al Mullen",
         "OpenAI",
         "ES.AI",
         "Marpipe",
         "YouTube",
-        "Julia Fernandez"
+        "Julia Fernandez",
+        "The Confessional on Love",
+        "Khalil Daterra",
+        "Cognition",
+        "The Met",
+        "Chris Shimojima",
+        "Creature Comfort The Musical"        
+    ],
+    "almost-clients": [
+        "The Boring Company",
+        "Dos Equis",
+        "Kalshi",
+        "Coors",
+        "Google",
+        "Pinterest",
+        "Pangram",
+        "In N Out",
+        "Häagen-Dazs",
+        "Margaritaville",
+        "The Onion",
+        "Normal Computing",
+        "Pally",
+        "CookUnity"        
     ],
     "press": [
         "New York Times",
@@ -493,12 +551,12 @@
             "colour": "aquamarine"
         },
         {
-            "title": "Taco Bell x Daisy Chain Fields",
-            "short-desc": "A receipt you'll want to keep",
+            "title": "Funkensteins",
+            "short-desc": "",
             "long-desc": "",
-            "slug": "tacobell",
+            "slug": "fishphrase",
             "year": "2026",
-            "client": "Taco Bell/Deutsch/m ss ng p eces/Brian Moore",
+            "client": "in-house",
             "team": [
                 {
                     "name": "tres",
@@ -507,7 +565,7 @@
                 },
                 {
                     "name": "josh",
-                    "role": "ux design, install",
+                    "role": "fabrication, electronics",
                     "link": "#crew"
                 }
             ],
@@ -515,7 +573,7 @@
             "videos": 0,
             "links": [],
             "gif": ".gif",
-            "colour": "lightyellow"
+            "colour": "aquamarine"
         }
     ]
 }
